@@ -166,7 +166,7 @@ const HomePage = () => {
                 </div>
                 {/* مساحة بيضاء فارغة للجوال فقط */}
                 <div className="block sm:hidden h-20"></div>
-                <p className="hero-subtitle text-[clamp(2.25rem,7.0vw,2.4rem)] md:text-[1.6rem] lg:text-[1.9rem] text-gray-700 mb-0 sm:mb-8 leading-[clamp(3.25rem,8.8vw,3.45rem)] md:leading-[2.35rem] lg:leading-[2.7rem] font-semibold">
+                <p className="hero-subtitle text-[clamp(2.5rem,8.0vw,2.8rem)] md:text-[1.6rem] lg:text-[1.9rem] text-gray-700 mb-0 sm:mb-8 leading-[clamp(3.5rem,9.5vw,3.8rem)] md:leading-[2.35rem] lg:leading-[2.7rem] font-semibold">
                   نمنحك تجربة دفع وشحن آمنة وسلسة، مصمم لتلبية معاملاتك المالية اليومية بأعلى درجات الكفاءة والموثوقية بواجهة عصرية وسهلة الاستخدام، يجعل التعامل الرقمي أسرع وأكثر متعة مع دعم العملات الرقمية والبطاقات الإلكترونية مسبقة الدفع مثل لتجربة مبتكرة وموثوقة بين يديك
                 </p>
                 {/* زر ابدأ مشروعك الآن فقط في الجوال */}
