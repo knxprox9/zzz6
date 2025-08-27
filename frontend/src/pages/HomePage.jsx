@@ -210,7 +210,7 @@ const HomePage = () => {
           
           {/* الأزرار في نفس الخط الأفقي في عرض الجوال فقط */}
           <div className="block sm:hidden mt-6 px-4">
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-8">
               <Link
                 to="/contact"
                 className="hero-button cta-button bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-6 py-3 rounded-xl font-semibold text-base hover:from-yellow-600 hover:to-orange-600 transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center justify-center gap-2"
