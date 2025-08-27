@@ -169,16 +169,7 @@ const HomePage = () => {
                 <p className="hero-subtitle text-[clamp(2.5rem,8.0vw,2.8rem)] md:text-[1.6rem] lg:text-[1.9rem] text-gray-700 mb-0 sm:mb-8 leading-[clamp(3.5rem,9.5vw,3.8rem)] md:leading-[2.35rem] lg:leading-[2.7rem] font-semibold">
                   نمنحك تجربة دفع وشحن آمنة وسلسة، مصمم لتلبية معاملاتك المالية اليومية بأعلى درجات الكفاءة والموثوقية بواجهة عصرية وسهلة الاستخدام، يجعل التعامل الرقمي أسرع وأكثر متعة مع دعم العملات الرقمية والبطاقات الإلكترونية مسبقة الدفع مثل لتجربة مبتكرة وموثوقة بين يديك
                 </p>
-                {/* زر ابدأ مشروعك الآن فقط في الجوال */}
-                <div className="block sm:hidden mb-4" style={{marginTop: '70px'}}>
-                  <Link
-                    to="/contact"
-                    className="hero-button cta-button bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-yellow-600 hover:to-orange-600 transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center justify-center gap-2"
-                  >
-                    ابدأ مشروعك الآن
-                    <ArrowLeft className="w-5 h-5" />
-                  </Link>
-                </div>
+                {/* زر ابدأ مشروعك الآن فقط في الجوال - تم نقله للأسفل */}
                 
                 {/* الأزرار معاً في سطح المكتب */}
                 <div className="hidden sm:flex flex-row gap-2 justify-center lg:justify-start mb-4 mt-8">
