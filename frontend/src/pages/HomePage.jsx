@@ -204,17 +204,26 @@ const HomePage = () => {
                     tight={true}
                   />
                 </div>
-              </div>
-              {/* زر العرض التوضيحي تحت Samsung في الجوال فقط */}
-              <div className="block sm:hidden mt-4 text-center">
-                <button className="hero-button border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-xl font-semibold text-base hover:border-yellow-500 hover:text-yellow-600 transition-all duration-300 flex items-center justify-center gap-2 mx-auto">
-                  <Play className="w-4 h-4" />
-                  شاهد العرض التوضيحي
-                </button>
-              </div>
+          </div>
+          
+          {/* الأزرار في نفس الخط الأفقي في عرض الجوال فقط */}
+          <div className="block sm:hidden mt-6 px-4">
+            <div className="grid grid-cols-2 gap-4">
+              <Link
+                to="/contact"
+                className="hero-button cta-button bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-6 py-3 rounded-xl font-semibold text-base hover:from-yellow-600 hover:to-orange-600 transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center justify-center gap-2"
+              >
+                ابدأ مشروعك الآن
+                <ArrowLeft className="w-4 h-4" />
+              </Link>
+              <button className="hero-button border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-xl font-semibold text-base hover:border-yellow-500 hover:text-yellow-600 transition-all duration-300 flex items-center justify-center gap-2">
+                <Play className="w-4 h-4" />
+                شاهد العرض التوضيحي
+              </button>
             </div>
           </div>
-          {/* Full-width trust metrics bar below the grid */}
+          
+          {/* Full-width trust metrics bar below the buttons */}
           <div className="mt-6">
             <TrustMetrics />
           </div>
